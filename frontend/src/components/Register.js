@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import "./Register.css";
-import { set } from "@project-serum/anchor/dist/cjs/utils/features";
 
 const App = () => {
   const userRef = useRef();
